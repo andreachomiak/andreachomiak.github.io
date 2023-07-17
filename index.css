@@ -1,0 +1,85 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff8f1;
+}
+.navbar li {
+    display: inline-block;
+    padding: 30px 0px;
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #05143F;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    background: linear-gradient(180deg, #4362B8 0%, #05143F 100%);
+    color:white;
+    padding: 100px 0;
+}
+
+.banner #banner-paragraph {
+   bottom: 100px;
+}
+
+#taylor_logo {
+    width: 170px;
+    height: 192.83px;
+    flex-shrink: 0;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#taylor_logo:hover {
+    transform: scale(1.3) rotate(10deg);
+}
+.main-title{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px auto 10px auto;
+}
+    .primary-button {
+    display: flex;
+    padding: 16px 18px;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #F0DAC6 0%, #FFF 100%);
+    color:#05143F;
+    font-weight:700;
+    border: none;
+    font-size: 16px;
+}
+.primary-button:hover {
+    font-size:17px ;
+    color: white;
+    background: #CDA580;
+    color:#05143F;
+}
+
+#big-title {
+color: #05143F;
+font-style: normal;
+line-height: normal;
+font-size: 42px;
+}
+
+#banner-paragraph {
+    margin: 10px auto 42px auto;
+}
+
+.bold {
+    font-weight: 900;
+}
